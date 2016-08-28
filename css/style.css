@@ -40,11 +40,21 @@ CONTACT PAGE
 ++++++++++++++*/
 
 .successMail{
-
+	height: 60px;
+	line-height: 60px;
 }
 
 .errorMail{
-	
+	height: 60px;
+	line-height: 60px;
+}
+
+.buttonHolder{
+	text-align: center;
+}
+
+#buttonHolder{
+	text-align: center;
 }
 
 
