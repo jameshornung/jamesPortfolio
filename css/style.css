@@ -64,5 +64,13 @@ CONTACT PAGE
 	text-align: center;
 }
 
+/*++++++++++++++
+FOOTER
+++++++++++++++*/
 
+.socialLink{
+	height: 40px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
 
