@@ -65,6 +65,27 @@ CONTACT PAGE
 }
 
 /*++++++++++++++
+PORTFOLIO PAGE
+++++++++++++++*/
+.portfolioCardHolder{
+	margin-bottom: 40px;
+}
+
+.portfolioCard{
+	height: 350px;
+}
+
+.portfolioScreenshot{
+
+}
+
+.portfolioFeatures{
+	list-style-type: circle;
+}
+
+
+
+/*++++++++++++++
 FOOTER
 ++++++++++++++*/
 

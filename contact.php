@@ -120,7 +120,7 @@ if (!$errName && !$errEmail && !$errMessage) {
               <li><a class="white-text" href="index.html">Main</a></li>
               <li><a class="white-text" href="about.html">About</a></li>
               <li><a class="white-text" href="portfolio.html">Portfolio</a></li>
-              <li><a class="white-text" href="connect.php">Connect</a></li>
+              <li><a class="white-text" href="contact.php">Connect</a></li>
             </ul>
           </div>
         </div>
