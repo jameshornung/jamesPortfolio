@@ -50,23 +50,23 @@ if (!$errName && !$errEmail && !$errMessage) {
 
 <!-- Navbar -->
     <nav class="light-blue lighten-1" role="navigation">
-        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">James Hornung</a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="index.html">Main</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.php">Connect</a></li>
-            </ul>
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">James Hornung</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/index">Main</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/portfolio">Portfolio</a></li>
+        <li><a href="contact.php">Connect</a></li>
+      </ul>
 
-            <ul id="nav-mobile" class="side-nav">
-                <li><a href="index.html">Main</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="connect.php">Connect</a></li>
-            </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
-    </nav>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="/index">Main</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/portfolio">Portfolio</a></li>
+        <li><a href="contact.php">Connect</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
 
 <!-- CONTACT FORM -->
     <div class="section no-pad-bot" id="index-banner">
@@ -117,9 +117,9 @@ if (!$errName && !$errEmail && !$errMessage) {
           <!-- Website Links -->
           <div class="col l3 s12">
             <ul>
-              <li><a class="white-text" href="index.html">Main</a></li>
-              <li><a class="white-text" href="about.html">About</a></li>
-              <li><a class="white-text" href="portfolio.html">Portfolio</a></li>
+              <li><a class="white-text" href="/index">Main</a></li>
+              <li><a class="white-text" href="/about">About</a></li>
+              <li><a class="white-text" href="/portfolio">Portfolio</a></li>
               <li><a class="white-text" href="contact.php">Connect</a></li>
             </ul>
           </div>
