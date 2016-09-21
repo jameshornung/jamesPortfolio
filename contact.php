@@ -97,7 +97,7 @@ if (!$errName && !$errEmail && !$errMessage) {
         </div>
     </div>
 
-    <!-- FOOTER -->
+<!-- FOOTER -->
   <div class="section">
     <footer class="page-footer orange">
       <div class="container">
@@ -106,9 +106,9 @@ if (!$errName && !$errEmail && !$errMessage) {
           <div class="col l6 s12">
             <p class="grey-text text-lighten-4">Connect With Me:</p>
             <div id="socialLinks">
-              <a href="https://github.com/jameshornung" target="_blank"><img src="images/github.png" class="img-responsive socialLink" alt="Github Logo"></a>
-              <a href="https://www.linkedin.com/in/james-hornung-84526311b" target="_blank"><img src="images/linkedin.png" class="img-responsive socialLink" alt="Linked In Logo"></a>
-              <a href="http://stackoverflow.com/users/6367428/james-hornung?tab=profile" target="_blank"><img src="images/stackOverflow.png" class="img-responsive socialLink" alt="Stack Overflow Logo"></a>
+              <a href="https://github.com/jameshornung" target="_blank"><img src="images/github.png" class="img-responsive socialLink hoverable" alt="Github Logo"></a>
+              <a href="https://www.linkedin.com/in/james-hornung-84526311b" target="_blank"><img src="images/linkedin.png" class="img-responsive socialLink hoverable" alt="Linked In Logo"></a>
+              <a href="http://stackoverflow.com/users/6367428/james-hornung?tab=profile" target="_blank"><img src="images/stackOverflow.png" class="img-responsive socialLink hoverable" alt="Stack Overflow Logo"></a>
             </div>
           </div>
           <!-- Empty Div -->
@@ -117,10 +117,10 @@ if (!$errName && !$errEmail && !$errMessage) {
           <!-- Website Links -->
           <div class="col l3 s12">
             <ul>
-              <li><a class="white-text" href="/index">Main</a></li>
-              <li><a class="white-text" href="/about">About</a></li>
-              <li><a class="white-text" href="/portfolio">Portfolio</a></li>
-              <li><a class="white-text" href="contact.php">Connect</a></li>
+              <li><a class="footerNav" href="/index">Main</a></li>
+              <li><a class="footerNav" href="/about">About</a></li>
+              <li><a class="footerNav" href="/portfolio">Portfolio</a></li>
+              <li><a class="footerNav" href="contact.php">Connect</a></li>
             </ul>
           </div>
         </div>
@@ -131,6 +131,19 @@ if (!$errName && !$errEmail && !$errMessage) {
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+    <!--  Google Analytics -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84012213-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </body>
 
 </html>
