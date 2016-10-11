@@ -40,16 +40,19 @@ if (!$errName && !$errEmail && !$errMessage) {
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Contact</title>
-        <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      <title>Contact Me</title>
+
+      <!-- CSS  -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
 <body>
 
-<!-- Navbar -->
-    <nav class="light-blue lighten-1" role="navigation">
+<!-- NAVBAR -->
+  <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">James Hornung</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="/index">Main</a></li>
@@ -68,26 +71,32 @@ if (!$errName && !$errEmail && !$errMessage) {
     </div>
   </nav>
 
+  <div class="row contactHeading">
+    <div class="col s12">
+      <h2 class="center">Contact Me</h2>
+    </div>
+  </div>
+
 <!-- CONTACT FORM -->
     <div class="section no-pad-bot" id="index-banner">
         <div class="container">
             <div class="row">
                 <form role="form" method="post" action="contact.php">
-                    <h2 class="center">Contact Me</h2>
-                    <div class="input-field col s6 offset-s3">
+                    <!-- <h2 class="center">Contact Me</h2> -->
+                    <div class="input-field col l6 offset-l3 s12">
                         <input type="text" name="name" placeholder="Name" class="validate" value="<?php echo htmlspecialchars($_POST['name']); ?>">
                     <?php echo "<p class='red-text center'>$errName</p>";?>
                     </div>
-                    <div class="input-field col s6 offset-s3">
+                    <div class="input-field col l6 offset-l3 s12">
                         <input type="email" name="email" placeholder="E-Mail" class="validate" value="<?php echo htmlspecialchars($_POST['email']); ?>">
                     <?php echo "<p class='red-text center'>$errEmail</p>";?>
                     </div>
-                    <div class="input-field col s6 offset-s3">
+                    <div class="input-field col l6 offset-l3 s12">
                         <textarea class="materialize-textarea" placeholder="Message" name="message" value="<?php echo htmlspecialchars($_POST['message']); ?>"></textarea>
                     <?php echo "<p class='red-text center'>$errMessage</p>";?>
                     </div>
-                    <div class="input-field col s6 offset-s3 buttonHolder" id="buttonHolder">
-                        <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                    <div class="input-field col s6 offset-s3 buttonHolder center" id="buttonHolder">
+                        <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary light-blue lighten-1 white-text">
                     </div>
                     <div class="input-field col s6 offset-s3">
                     <?php echo $result; ?>
