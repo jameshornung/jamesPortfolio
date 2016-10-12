@@ -52,31 +52,33 @@ if (!$errName && !$errEmail && !$errMessage) {
 <body>
 
 <!-- NAVBAR -->
-  <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">James Hornung</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="/index">Main</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/portfolio">Portfolio</a></li>
-        <li><a href="contact.php">Connect</a></li>
-      </ul>
+  <header>
+    <nav class="light-blue lighten-1" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">James Hornung</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/index">Main</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="contact.php">Connect</a></li>
+        </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="/index">Main</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/portfolio">Portfolio</a></li>
-        <li><a href="contact.php">Connect</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="/index">Main</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="contact.php">Connect</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="row contactHeading">
+      <div class="col s12">
+        <h2 class="center">Contact Me</h2>
+      </div>
     </div>
-  </nav>
-
-  <div class="row contactHeading">
-    <div class="col s12">
-      <h2 class="center">Contact Me</h2>
-    </div>
-  </div>
-
 <!-- CONTACT FORM -->
     <div class="section no-pad-bot" id="index-banner">
         <div class="container">
@@ -104,10 +106,11 @@ if (!$errName && !$errEmail && !$errMessage) {
                 </form>
             </div>
         </div>
-    </div>
+      </div>
+    </main>
 
 <!-- FOOTER -->
-  <div class="section">
+  
     <footer class="page-footer orange">
       <div class="container">
         <div class="row">
@@ -135,7 +138,7 @@ if (!$errName && !$errEmail && !$errMessage) {
         </div>
       </div>
     </footer>
-  </div>
+ 
 
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
