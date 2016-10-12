@@ -25,14 +25,14 @@
             $errMessage = 'Please enter your message';
         }
 
-// If there are no errors, send the email
-if (!$errName && !$errEmail && !$errMessage) {
-    if (mail ($to, $subject, $body, $from)) {
-        $result='<div class="center white-text green successMail">Thank You! I will be in touch soon.</div>';
-    } else {
-        $result='<div class="center white-text red errorMail">Sorry there was an error sending your message. Please try again later.</div>';
-    }
-}
+        // If there are no errors, send the email
+        if (!$errName && !$errEmail && !$errMessage) {
+            if (mail ($to, $subject, $body, $from)) {
+                $result='<div class="center white-text green successMail">Thank You! I will be in touch soon.</div>';
+            } else {
+                $result='<div class="center white-text red errorMail">Sorry there was an error sending your message. Please try again later.</div>';
+            }
+        }
     }
 ?>
 
@@ -80,7 +80,7 @@ if (!$errName && !$errEmail && !$errMessage) {
       </div>
     </div>
 <!-- CONTACT FORM -->
-    <div class="section no-pad-bot" id="index-banner">
+    <!-- <div class="section no-pad-bot" id="index-banner"> -->
         <div class="container">
             <div class="row">
                 <form role="form" method="post" action="contact.php">
@@ -106,7 +106,7 @@ if (!$errName && !$errEmail && !$errMessage) {
                 </form>
             </div>
         </div>
-      </div>
+     <!--  </div> -->
     </main>
 
 <!-- FOOTER -->
